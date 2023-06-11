@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A01FE8D2A349D6000E36A86 /* CupcakeprojctApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FE8C2A349D6000E36A86 /* CupcakeprojctApp.swift */; };
+		6A01FE8F2A349D6000E36A86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FE8E2A349D6000E36A86 /* ContentView.swift */; };
+		6A01FE912A349D6200E36A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A01FE902A349D6200E36A86 /* Assets.xcassets */; };
+		6A01FE942A349D6200E36A86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A01FE932A349D6200E36A86 /* Preview Assets.xcassets */; };
+		6A01FE9B2A349D8200E36A86 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FE9A2A349D8200E36A86 /* SignUpView.swift */; };
+		6A01FE9F2A349E4A00E36A86 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6A01FE9E2A349E4A00E36A86 /* FirebaseAuth */; };
+		6A01FEA12A349E4A00E36A86 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6A01FEA02A349E4A00E36A86 /* FirebaseFirestore */; };
+		6A01FEA32A349FDE00E36A86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A01FEA22A349FDE00E36A86 /* GoogleService-Info.plist */; };
+		6A01FEA72A34A14000E36A86 /* CupcakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEA62A34A14000E36A86 /* CupcakeViewModel.swift */; };
+		6A01FEAB2A34A16200E36A86 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEAA2A34A16200E36A86 /* CartViewModel.swift */; };
+		6A01FEAD2A34A17400E36A86 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEAC2A34A17400E36A86 /* PaymentViewModel.swift */; };
+		6A01FEAF2A34A19500E36A86 /* CupcakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEAE2A34A19500E36A86 /* CupcakeModel.swift */; };
+		6A01FEB12A34A1A900E36A86 /* NutritionFactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEB02A34A1A900E36A86 /* NutritionFactsModel.swift */; };
+		6A01FEB32A34A1B700E36A86 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEB22A34A1B700E36A86 /* CartModel.swift */; };
+		6A01FEB52A34A1CB00E36A86 /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEB42A34A1CB00E36A86 /* PaymentModel.swift */; };
+		6A01FEB72A34A1E100E36A86 /* CupcakePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEB62A34A1E100E36A86 /* CupcakePageModel.swift */; };
+		6A01FEBF2A34B04400E36A86 /* PaymentStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEBE2A34B04400E36A86 /* PaymentStatusView.swift */; };
+		6A01FEC12A34B06D00E36A86 /* CupcakePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEC02A34B06D00E36A86 /* CupcakePageView.swift */; };
+		6A01FEC32A34B08000E36A86 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEC22A34B08000E36A86 /* CartView.swift */; };
+		6A01FEC52A34B09600E36A86 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEC42A34B09600E36A86 /* PaymentView.swift */; };
+		6A01FEC92A34B36600E36A86 /* CupcakePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FEC82A34B36600E36A86 /* CupcakePageViewModel.swift */; };
+		6A01FECB2A34BA5A00E36A86 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FECA2A34BA5A00E36A86 /* LogInView.swift */; };
+		6A01FECD2A34DD4000E36A86 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01FECC2A34DD4000E36A86 /* DataManager.swift */; };
+		6A01FED02A359F5900E36A86 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6A01FECF2A359F5900E36A86 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A01FE892A349D6000E36A86 /* Cupcakeprojct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cupcakeprojct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A01FE8C2A349D6000E36A86 /* CupcakeprojctApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeprojctApp.swift; sourceTree = "<group>"; };
+		6A01FE8E2A349D6000E36A86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A01FE902A349D6200E36A86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A01FE932A349D6200E36A86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A01FE9A2A349D8200E36A86 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6A01FEA22A349FDE00E36A86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A01FEA62A34A14000E36A86 /* CupcakeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeViewModel.swift; sourceTree = "<group>"; };
+		6A01FEAA2A34A16200E36A86 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		6A01FEAC2A34A17400E36A86 /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		6A01FEAE2A34A19500E36A86 /* CupcakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeModel.swift; sourceTree = "<group>"; };
+		6A01FEB02A34A1A900E36A86 /* NutritionFactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionFactsModel.swift; sourceTree = "<group>"; };
+		6A01FEB22A34A1B700E36A86 /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		6A01FEB42A34A1CB00E36A86 /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		6A01FEB62A34A1E100E36A86 /* CupcakePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakePageModel.swift; sourceTree = "<group>"; };
+		6A01FEBE2A34B04400E36A86 /* PaymentStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStatusView.swift; sourceTree = "<group>"; };
+		6A01FEC02A34B06D00E36A86 /* CupcakePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakePageView.swift; sourceTree = "<group>"; };
+		6A01FEC22A34B08000E36A86 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		6A01FEC42A34B09600E36A86 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		6A01FEC82A34B36600E36A86 /* CupcakePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakePageViewModel.swift; sourceTree = "<group>"; };
+		6A01FECA2A34BA5A00E36A86 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		6A01FECC2A34DD4000E36A86 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A01FE862A349D6000E36A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01FE9F2A349E4A00E36A86 /* FirebaseAuth in Frameworks */,
+				6A01FEA12A349E4A00E36A86 /* FirebaseFirestore in Frameworks */,
+				6A01FED02A359F5900E36A86 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A01FE802A349D6000E36A86 = {
+			isa = PBXGroup;
+			children = (
+				6A01FE8B2A349D6000E36A86 /* Cupcakeprojct */,
+				6A01FE8A2A349D6000E36A86 /* Products */,
+				6A01FECE2A359F5900E36A86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A01FE8A2A349D6000E36A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A01FE892A349D6000E36A86 /* Cupcakeprojct.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A01FE8B2A349D6000E36A86 /* Cupcakeprojct */ = {
+			isa = PBXGroup;
+			children = (
+				6A01FE8C2A349D6000E36A86 /* CupcakeprojctApp.swift */,
+				6A01FE9C2A349D8800E36A86 /* views */,
+				6A01FEA52A34A10D00E36A86 /* ViewModels */,
+				6A01FEA42A34A0F600E36A86 /* Models */,
+				6A01FE902A349D6200E36A86 /* Assets.xcassets */,
+				6A01FEA22A349FDE00E36A86 /* GoogleService-Info.plist */,
+				6A01FE922A349D6200E36A86 /* Preview Content */,
+			);
+			path = Cupcakeprojct;
+			sourceTree = "<group>";
+		};
+		6A01FE922A349D6200E36A86 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A01FE932A349D6200E36A86 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A01FE9C2A349D8800E36A86 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6A01FE9A2A349D8200E36A86 /* SignUpView.swift */,
+				6A01FECA2A34BA5A00E36A86 /* LogInView.swift */,
+				6A01FE8E2A349D6000E36A86 /* ContentView.swift */,
+				6A01FEC02A34B06D00E36A86 /* CupcakePageView.swift */,
+				6A01FEC42A34B09600E36A86 /* PaymentView.swift */,
+				6A01FEBE2A34B04400E36A86 /* PaymentStatusView.swift */,
+				6A01FEC22A34B08000E36A86 /* CartView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6A01FEA42A34A0F600E36A86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A01FEAE2A34A19500E36A86 /* CupcakeModel.swift */,
+				6A01FEB02A34A1A900E36A86 /* NutritionFactsModel.swift */,
+				6A01FEB22A34A1B700E36A86 /* CartModel.swift */,
+				6A01FEB42A34A1CB00E36A86 /* PaymentModel.swift */,
+				6A01FEB62A34A1E100E36A86 /* CupcakePageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A01FEA52A34A10D00E36A86 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6A01FEA62A34A14000E36A86 /* CupcakeViewModel.swift */,
+				6A01FEC82A34B36600E36A86 /* CupcakePageViewModel.swift */,
+				6A01FEAA2A34A16200E36A86 /* CartViewModel.swift */,
+				6A01FEAC2A34A17400E36A86 /* PaymentViewModel.swift */,
+				6A01FECC2A34DD4000E36A86 /* DataManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6A01FECE2A359F5900E36A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A01FE882A349D6000E36A86 /* Cupcakeprojct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A01FE972A349D6200E36A86 /* Build configuration list for PBXNativeTarget "Cupcakeprojct" */;
+			buildPhases = (
+				6A01FE852A349D6000E36A86 /* Sources */,
+				6A01FE862A349D6000E36A86 /* Frameworks */,
+				6A01FE872A349D6000E36A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cupcakeprojct;
+			packageProductDependencies = (
+				6A01FE9E2A349E4A00E36A86 /* FirebaseAuth */,
+				6A01FEA02A349E4A00E36A86 /* FirebaseFirestore */,
+				6A01FECF2A359F5900E36A86 /* FirebaseStorage */,
+			);
+			productName = Cupcakeprojct;
+			productReference = 6A01FE892A349D6000E36A86 /* Cupcakeprojct.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A01FE812A349D6000E36A86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6A01FE882A349D6000E36A86 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 6A01FE842A349D6000E36A86 /* Build configuration list for PBXProject "Cupcakeprojct" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A01FE802A349D6000E36A86;
+			packageReferences = (
+				6A01FE9D2A349E4A00E36A86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 6A01FE8A2A349D6000E36A86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A01FE882A349D6000E36A86 /* Cupcakeprojct */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A01FE872A349D6000E36A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01FE942A349D6200E36A86 /* Preview Assets.xcassets in Resources */,
+				6A01FE912A349D6200E36A86 /* Assets.xcassets in Resources */,
+				6A01FEA32A349FDE00E36A86 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A01FE852A349D6000E36A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01FEC32A34B08000E36A86 /* CartView.swift in Sources */,
+				6A01FECB2A34BA5A00E36A86 /* LogInView.swift in Sources */,
+				6A01FEC12A34B06D00E36A86 /* CupcakePageView.swift in Sources */,
+				6A01FEAB2A34A16200E36A86 /* CartViewModel.swift in Sources */,
+				6A01FEB52A34A1CB00E36A86 /* PaymentModel.swift in Sources */,
+				6A01FE8F2A349D6000E36A86 /* ContentView.swift in Sources */,
+				6A01FEC52A34B09600E36A86 /* PaymentView.swift in Sources */,
+				6A01FECD2A34DD4000E36A86 /* DataManager.swift in Sources */,
+				6A01FEB72A34A1E100E36A86 /* CupcakePageModel.swift in Sources */,
+				6A01FEB12A34A1A900E36A86 /* NutritionFactsModel.swift in Sources */,
+				6A01FEAF2A34A19500E36A86 /* CupcakeModel.swift in Sources */,
+				6A01FEA72A34A14000E36A86 /* CupcakeViewModel.swift in Sources */,
+				6A01FEC92A34B36600E36A86 /* CupcakePageViewModel.swift in Sources */,
+				6A01FEB32A34A1B700E36A86 /* CartModel.swift in Sources */,
+				6A01FE9B2A349D8200E36A86 /* SignUpView.swift in Sources */,
+				6A01FEAD2A34A17400E36A86 /* PaymentViewModel.swift in Sources */,
+				6A01FE8D2A349D6000E36A86 /* CupcakeprojctApp.swift in Sources */,
+				6A01FEBF2A34B04400E36A86 /* PaymentStatusView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6A01FE952A349D6200E36A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A01FE962A349D6200E36A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A01FE982A349D6200E36A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cupcakeprojct/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Cupcakeprojct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A01FE992A349D6200E36A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cupcakeprojct/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Cupcakeprojct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A01FE842A349D6000E36A86 /* Build configuration list for PBXProject "Cupcakeprojct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A01FE952A349D6200E36A86 /* Debug */,
+				6A01FE962A349D6200E36A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A01FE972A349D6200E36A86 /* Build configuration list for PBXNativeTarget "Cupcakeprojct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A01FE982A349D6200E36A86 /* Debug */,
+				6A01FE992A349D6200E36A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6A01FE9D2A349E4A00E36A86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6A01FE9E2A349E4A00E36A86 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A01FE9D2A349E4A00E36A86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6A01FEA02A349E4A00E36A86 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A01FE9D2A349E4A00E36A86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6A01FECF2A359F5900E36A86 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A01FE9D2A349E4A00E36A86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6A01FE812A349D6000E36A86 /* Project object */;
+}
